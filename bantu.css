@@ -1,0 +1,357 @@
+body {
+    margin: 0px;
+    padding-top: 10px;
+    font-family: "poppins", sans-serif;
+  }
+
+     .bantu_logo {
+    width: 210px;
+    height: auto;
+  }
+
+  .header{
+    padding: 0 45px 0 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /*Pour que le menu ai une belle apparence*/
+  
+  .nav-menu {
+    list-style: none;
+    margin-left: 600px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ /*Change l'apparence du menu et affecte un changement de couleur en fondu sortant*/
+  .nav-menu a {
+    color: #363853;
+    text-decoration: none;
+    display: inline;
+    transition: all 0.3s ease-out;
+  }
+  
+  /*Lorsque je pointe la souris, change de couleur en Jaune*/
+  .nav-menu a:hover{
+    color: #fff222
+  }
+  
+  /*Je sépare les 2 éléments de mon menu*/
+  .nav-menu li {
+    padding-left: 30px;
+  }
+ 
+/*Mon bouton "Join Now" */
+.btn {
+    background-color: #FFBF30;
+    color: #FFF;
+    text-decoration: none; /*enlève la décoration qui était avant*/
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px;
+    font-size: 1.1 rem;
+}
+
+
+  .hero {
+    background-color: #fff9ea;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-inner{
+    width: 760px;
+  }
+  
+  .hero h1 {
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    line-height:1.6;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .btn-1 {
+    background-color: #FFBF30;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .btn-2 {
+    background-color: #FFF;
+    color: #FFBF30;
+    border: 1px solid #FFBF30;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .trad-fund-inner {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 150px auto;
+  }
+  
+  .flex-list-1 {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+  }
+  
+  .features-01, .features-02, .features-03, .features-04, .features-05 {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 10px 0;
+    box-shadow: 1px 5px 12px #23155B;
+  }
+  
+  .flex-list-1 h4 {
+    font-size: 1.5rem;
+    color: #FFBF30;
+    margin-right: 20px;
+  }
+  
+  
+  .trad-fund-inner h1 {
+    max-width: 400px;
+    font-size: 3.25rem;  
+  }
+  
+  .trad-fund-inner h1 em {
+    color: #FFBF30;  
+  }
+  
+  .for-projects {
+    background-image: linear-gradient(rgba(255,191,48,0.2), rgba(255,191,48,0)) ;
+    padding: 60px 45px;
+  }
+  
+  .for-projects h4, .for-projects h1, .for-projects p, .for-projects-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .for-projects-inner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  /* ici c'est la partie footer */
+
+  .footer img
+  {
+    padding: 2px 45px 0px 45px;
+    width: 1200px;
+    height: 600px;
+    border-top-left-radius: 200px; /* pour arrondir la partie  gauche de l'image */
+  }
+
+  /* champ du formulaire */
+
+  .footer-h1 {
+    max-width: 300px;
+    font-size: 2rem; 
+    position: absolute;
+    left: 250px;
+    top: 1940px;
+    line-height: 40px; /* pour ajuster la hauteur de la ligne */
+    
+  }
+  
+ .footer-h1 em /* pour donner une couleur à une partie du texte */
+ { 
+    color: #FFBF30;  
+  }
+  .footer-h1
+  {
+    color: #FFF;
+  }
+  /* paragraphe*/
+
+  .footer-paragraphe
+  {
+    font-size: 10px;
+    position: absolute;
+    left: 250px;
+    top: 2080px;
+    color: #FFF;
+  }
+
+   /* champ du called dans  le formulaire */
+  .footer-call
+  {
+    position: absolute;
+    left: 250px;
+    top: 2150px;
+  }
+  .footer-call label
+  {
+    color: #FFF;
+    position: absolute;
+    top: -15px;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+
+  .footer-call input
+  {
+    width: 250px;
+    border-radius: 8px;
+    height: 35px;
+  }
+
+   /* champ du projet dans  le formulaire */
+  .footer-project
+  {
+    position: absolute;
+    left: 250px;
+    top: 2210px;
+  }
+  .footer-project label
+  {
+    color: #FFF;
+    position: absolute;
+    top: -15px;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+
+  .footer-project input
+  {
+    width: 250px;
+    border-radius: 8px;
+    height: 35px;
+  }
+
+  /* champ de l'email dans  le formulaire */
+  .footer-email
+  {
+    position: absolute;
+    left: 520px;
+    top: 2150px;
+  }
+  .footer-email label
+  {
+    color: #FFF;
+    position: absolute;
+    top: -15px;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+
+  .footer-email input
+  {
+    width: 250px;
+    border-radius: 8px;
+    height: 35px;
+  }
+
+   /* champ du telegram dans  le formulaire */
+
+   .footer-telegram
+  {
+    position: absolute;
+    left: 520px;
+    top: 2210px;
+  }
+  .footer-telegram label
+  {
+    color: #FFF;
+    position: absolute;
+    top: -15px;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+
+  .footer-telegram input
+  {
+    width: 250px;
+    border-radius: 8px;
+    height: 35px;
+  }
+
+  /* bouton du footer */
+
+  .footer-btn
+  {
+    background-color: #FFBF30;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 100px;
+    height: 15;
+    position: absolute; /* me permet de deplacer l'element ou l'on souhaite en precisant les valeurs left width top etc... */
+    left: 250px;
+    top: 2270px;
+    
+    
+    
+  }
+  .footer-btn a{
+    text-decoration: none;
+    color: #FFF;
+    position: absolute;
+    top: 6px;
+    left: 45px;
+  }
+
+  /* lien du footer */
+
+.footer-link
+{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 810px;
+  position: absolute;
+  top: 2300;
+}
+
+.footer-link a
+{
+  padding-left: 20px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 10px;
+}
+
+/* footer social media */
+
+.footer-social_media
+{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 870px;
+  position: absolute;
+  top: 2240;
+}
+
+.footer-social_media img
+{
+    padding: 10px;
+    width: 30px;
+    height: 35px;
+    border-radius: 30px;
+}
